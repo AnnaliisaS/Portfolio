@@ -11,11 +11,27 @@ p  {
     color: #777777;
 }
 
-section {
+footer {
+    background-color: #666666;
+}
+
+.border-box {
+    align-content: center;
+    width: 960px;
+    height: auto;
     background-color: #ffffff;
     border-color: #dddddd;
 }
 
-footer {
-    background-color: #666666;
+.ImageBorder {
+    width: 15%;
+    height: 15%;
+}
+
+div {
+    border: 5px solid red;
+}
+
+section {
+    border: 5px solid red;
 }
