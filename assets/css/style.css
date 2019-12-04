@@ -7,9 +7,10 @@ section {
     border-color: #dddddd;
 }
 body {
-    background-image: url("./assets/images/interlaced.png");
-    background-repeat: repeat;
-
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/25/17/56/color-2174049__340.png");
+    background-size: cover; /*I tried a variety of methods for this. I originally had a downloaded image that 
+                            I tried to tile, etc and couldn't get it to work to cover the screen width. I found 
+                            that using a url instead worked, so I'm sticking with it!!!*/
 }
 
 h1 {
