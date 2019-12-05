@@ -113,8 +113,11 @@ img {
     width: auto;
     margin: 0 20px 0 20px;
 }
-
-.small {
+/*
+label {
+    margin: 0 20px 0 20px;
+}*/
+/*.small {
     font-size: 10px;
 }
 
@@ -124,5 +127,4 @@ img {
     border: solid 1px grey;
     width: auto;
     margin: 0 20px 0 20px;
-}
-}
+}*/
