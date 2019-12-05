@@ -25,9 +25,6 @@ h1 {
     margin-bottom: 0;
 }
 
-/*Spent WAAAY to long trying to make a nav menu using flexbox. Never got it to work and used this
-method instead since I could make it work. I am thoroughly frustrated trying to position elements
-with css right now...*/
 ul {
     list-style-type: none;   
     margin: 0;
@@ -86,6 +83,14 @@ footer {
 img {
     height: 150px;
     width: 250px;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 290px 290px;
+    
+    justify-content: start;
 }
 
 .container {
