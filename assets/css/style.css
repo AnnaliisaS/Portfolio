@@ -7,6 +7,7 @@ section {
     border-color: #dddddd;
 }
 .wrapper {
+    padding: 20px 0 20px 0;
     background-image: url("https://cdn.pixabay.com/photo/2017/03/25/17/56/color-2174049__340.png");
     background-size: cover; /*I tried a variety of methods for this. I originally had a downloaded image that 
                             I tried to tile, etc and couldn't get it to work to cover the screen width. I found 
@@ -33,12 +34,12 @@ ul {
     padding: 0;
   }
 
-  li {
+li {
     float: right;
     display: inline;
   }
   
-  li a {
+li a {
     display: block;
     color: #777777;
     text-align: center;
