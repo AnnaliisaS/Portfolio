@@ -35,12 +35,15 @@ ul {
   }
 
 li {
+    bottom: 50px;
+    position: relative;
     float: right;
     display: inline;
   }
   
 li a {
     display: block;
+    position: relative;
     color: #777777;
     text-align: center;
     padding: 12px 14px;
