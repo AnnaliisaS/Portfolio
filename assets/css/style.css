@@ -93,4 +93,36 @@ img {
     margin: 20px;
 }
 
+.banner-box {
+    height: 40px;
+    width: 250px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+
 /* Contact.html specific formatting*/
+.form {
+    height: 480px;
+}
+
+.form-box {
+    text-align: left;
+    height: 30px;
+    border: solid 1px grey;
+    width: auto;
+    margin: 0 20px 0 20px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.message-box {
+    text-align: left;
+    height: 180px;
+    border: solid 1px grey;
+    width: auto;
+    margin: 0 20px 0 20px;
+}
+}
