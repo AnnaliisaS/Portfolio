@@ -50,10 +50,10 @@ h2 {
     font-family: Georgia, Times, Times New Roman, Serif;
 }   
 
-#profile {
+img {
     padding: 10px;
     width: 100%;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 p  {
