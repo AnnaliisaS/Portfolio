@@ -13,15 +13,21 @@ section {
 }
 
 h1 {
+    max-width: fit-content;;
     background-color: #4aaaa5;
-    #ffffff;
+    color: #ffffff;
     border-color: #cccccc;
-    border-width: 5px, 5px, 5px, 5px;
+    border-width: 10px, 10px, 10px, 10px;
     font-family: "Georgia", Times, "Times New Roman", Serif;
+    padding: 20px;
+    margin-bottom: 0;
 }
 
+/*Spent WAAAY to long trying to make a nav menu using flexbox. Never got it to work and used this
+method instead since I could make it work. I am thoroughly frustrated trying to position elements
+with css right now...*/
 ul {
-    list-style-type: none;
+    list-style-type: none;   
     margin: 0;
     padding: 0;
   }
@@ -44,11 +50,6 @@ h2 {
     font-family: Georgia, Times, Times New Roman, Serif;
 }   
 
-/*nav {
-    color: #777777;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-} */
-
 #profile {
     padding: 10px;
     width: 100%;
@@ -63,6 +64,7 @@ p  {
 
 footer {
     position: sticky;
+    margin-top: auto;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     border-top: 8px solid #4aaaa5;
     color: #ffffff;
