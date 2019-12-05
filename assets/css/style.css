@@ -56,8 +56,8 @@ h2 {
 
 #profile {
     padding: 0 20px 20px 20px;
-    height: 220px;
-    width: 180px;
+    height: 110%;
+    width: 85%;
 }
 
 p  {
@@ -79,27 +79,53 @@ footer {
 }
 
 /* Portfolio.html specific formatting*/
+
 img {
     height: 150px;
     width: 250px;
-    padding: 20px 20px 20px 20px;
 }
 
-.image-box {
-    height: 150px;
+.container {
+    position: relative;
+    box-sizing: border-box;
     width: 250px;
+    height: 150px;
     border: solid 1px grey;
     background-color: lightgray;
     margin: 20px;
 }
 
-.banner-box {
+h3 {
+    text-align: center;
     height: 40px;
     width: 250px;
     background-color: #4aaaa5;
     color: #ffffff;
 }
+#six {
+    position: absolute;
+    top: 85px;
+}
 
+#seven {
+    position: absolute;
+    top: 85px;
+}
+
+#eight {
+    position: absolute;
+    top: 85px;
+}
+
+#nine {
+    position: absolute;
+    top: 85px;
+}
+
+#ten {
+    position: absolute;
+    top: 85px;
+}
 
 /* Contact.html specific formatting*/
 .form {
@@ -113,18 +139,4 @@ img {
     width: auto;
     margin: 0 20px 0 20px;
 }
-/*
-label {
-    margin: 0 20px 0 20px;
-}*/
-/*.small {
-    font-size: 10px;
-}
 
-.message-box {
-    text-align: left;
-    height: 180px;
-    border: solid 1px grey;
-    width: auto;
-    margin: 0 20px 0 20px;
-}*/
