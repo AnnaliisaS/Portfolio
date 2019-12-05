@@ -45,22 +45,22 @@ ul {
   }
 
 h2 {
-    padding: 10px;
+    padding: 0 0 0 20px;
     color: #4aaaa5;
     font-family: Georgia, Times, Times New Roman, Serif;
 }   
 
-img {
-    padding: 10px;
-    width: 100%;
-    max-width: 200px;
-    max-height: 220px;
+#profile {
+    padding: 0 20px 20px 20px;
+    height: 220px;
+    width: 190px;
 }
 
 p  {
-    padding: 10px;
+    padding: 0 0 0 20px;
     color: #777777;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 footer {
