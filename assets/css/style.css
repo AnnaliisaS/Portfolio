@@ -8,7 +8,8 @@ section {
 }
 
 .wrapper {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 60px 0;
+    min-height: max-content;
     background-image: url("https://cdn.pixabay.com/photo/2017/03/25/17/56/color-2174049__340.png");
     background-size: cover; /*I tried a variety of methods for this. I originally had a downloaded image that 
                             I tried to tile, etc and couldn't get it to work to cover the screen width. I found 
@@ -18,7 +19,7 @@ section {
 h1 {
     max-width: fit-content;;
     background-color: #4aaaa5;
-    color: #ffffff;
+    color: #ffffff;</div> 
     border-color: #cccccc;
     border-width: 10px, 10px, 10px, 10px;
     font-family: "Georgia", Times, "Times New Roman", Serif;
@@ -84,7 +85,7 @@ footer {
     color: #ffffff;
     text-align: center;
     background-color: #666666; 
-    padding-top: 10px;     
+    padding-top: 40px;     
 }
 
 /* Portfolio.html specific formatting*/
